@@ -26,6 +26,7 @@ def entry():
         if ans == num:
             print('You got it!')
             gameIsRunning = False
+    print('The number was {}'.format(num))
     print('Thanks for playing my game, {}!'.format(name))
 
     exit(0)
